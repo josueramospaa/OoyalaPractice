@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Player V4 Web Pages</title>
+</head>
+<body>
+<center>PRACTICE I OOYALA COMPANY</center>
+<div align="center">
+ <a href="/index.html">Player V4 Practice I</a> 
+ <a href="/index2.html">Player V4 Practice II</a> 
+ <!-- embered -->
+<script src="//player.ooyala.com/core/79da10fbfdd34ec4a60eb52556a5af02"></script>
+<!-- Video 1 -->
+<div id='Video1' style='width:1020px;'></div>
+<button id="play" onclick="vid1.play()">Play</button>
+<button id="pause" onclick="vid1.pause()">Pause</button>
+<select onchange="vid1.setVolume(parseFloat(this.value))">
+	    <option value=".0">.0</option>
+        <option value=".1">.1</option>
+        <option value=".2">.2</option>
+        <option value=".3">.3</option>
+        <option value=".4">.4</option>
+        <option value=".5">.5</option>
+        <option value="1">1</option>
+    </select>
+    
+<!-- Video 2-->
+<div align="center">
+<div id='Video2' style='width:1020px;'></div>
+<button id="play" onclick="vid2.play()">Play</button>
+<button id="pause" onclick="vid2.pause()">Pause</button>
+<select onchange="vid2.setVolume(parseFloat(this.value))">
+        <option value=".1">.1</option>
+        <option value=".2">.2</option>
+        <option value=".3">.3</option>
+        <option value=".4">.4</option>
+        <option value=".5">.5</option>
+        <option value="1">1</option>
+    </select>
+ <script src="/player.js"></script>
+</body>
+
+</html>
