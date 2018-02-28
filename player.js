@@ -28,3 +28,16 @@
   console.log(eventName)
   });
   });
+
+window.current = 1
+OO.$("#imagen1").click(function () {
+    if (window.current == 1) {
+        window.current = 2
+        OO.$("#imagen1").attr("src", "balon2.jpg")
+        window.vid3.mb.publish(OO.EVENTS.SET_EMBED_CODE, "pldzhnZTE658HXEut1sqgPXVvID6IKQg");
+    } else {
+        window.current = 1
+        OO.$("#imagen1").attr("src", "stadio.jpg")
+        window.vid3.mb.publish(OO.EVENTS.SET_EMBED_CODE, "41bDZnZTE63J5oHmPnziSa7PWyIj59WK");
+    }
+})

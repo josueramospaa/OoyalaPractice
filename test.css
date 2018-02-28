@@ -35,6 +35,7 @@ display: table;
     position: relative;
     position:top;
     display:inline-block;
+    margin:0 auto;
    }
 .imagen2{
     position: relative;
@@ -55,11 +56,14 @@ display: table;
     position: relative;
     position:top;
     display:inline-block;
+    margin:0 auto;
    }
 .imagen6{
     position: relative;
     position:top;
     display:inline-block;
+    margin:0 auto;
+    width: 21%;
    }
 .imagen7{
     position: relative;
